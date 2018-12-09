@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>All Products - MeowBhow.In</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="">
+      <meta name="format-detection" content="telephone=no">
+      <meta property="og:type" content="profile" />
+      <meta property="og:title" content="See All Products Fashion, Beauty, Cosmetic Products By MeowBhow.In" />
+      <meta property="og:description" content="Meow & Bhow, A Seller in All Types of Fashion, Beauty, Cosmetic & Personal Care Products At Lowest Cost and Many More.../>
+         <meta property="og:url" content="#"/>
+      <meta property="og:image" itemprop="image" content="http://www.meowbhow.in/img/meowbhow.in.jpg" />
+      <meta property="og:image:width" content="100%">
+      <meta property="og:image:height" content="100%">
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Black Aqua" />
+      <meta name="author" content="Abhijeet Agharkar">
+      <link itemprop="thumbnailUrl" href="http://www.meowbhow.in/img/meowbhow.in.jpg">
+      <link rel="stylesheet"  href="slider/lightslider.css"/>
+      <style>
+         ul{
+         list-style: none outside none;
+         padding-left: 0;
+         margin: 0;
+         }
+         .demo .item{
+         margin-bottom: 60px;
+         }
+         .content-slider li{
+         background-color: #ed3020;
+         text-align: center;
+         color: #FFF;
+         }
+         .content-slider h3 {
+         margin: 0;
+         padding: 70px 0;
+         }
+         .demo{
+         width: 1200px;
+         }
+         .btn-green {
+         background: #2fbe6d;
+         border: 1px solid #2fbe6d;
+         border-radius: 4px;
+         box-shadow: none;
+         color: #fff;
+         cursor: pointer;
+         display: inline-block;
+         font-size: 16px;
+         letter-spacing: 1px;
+         line-height: 1.2em;
+         padding: .65rem 1rem;
+         text-align: center;
+         transition: background .1s ease-in
+         }
+         .btn-green,
+         .btn-green:active,
+         .btn-green:focus,
+         .btn-green:hover {
+         outline: none;
+         text-decoration: none
+         }
+         .btn-green:focus,
+         .btn-green:hover {
+         background: #17ab57;
+         color: #fff
+         }
+         .btn-green:active {
+         background: #097236;
+         color: #fff
+         }
+         .btn-green.disabled,
+         .btn-green.disabled:active,
+         .btn-green.disabled:focus,
+         .btn-green.disabled:hover,
+         .btn-green[disabled],
+         .btn-green[disabled]:active,
+         .btn-green[disabled]:focus,
+         .btn-green[disabled]:hover {
+         background: #dae0e4;
+         border-color: #dae0e4;
+         color: #fff
+         }
+         .btn-green.btn-outline {
+         background: transparent;
+         color: #2fbe6d
+         }
+         .btn-green.btn-outline[disabled] {
+         background: #dae0e4;
+         border-color: #dae0e4;
+         color: #fff
+         }
+         .btn-green.btn-disabled,
+         .btn-green.btn-disabled:active,
+         .btn-green.btn-disabled:focus,
+         .btn-green.btn-disabled:hover {
+         border-color: #dae0e4;
+         color: #9fafb9
+         }
+         .btn-purple {
+         background: #4e4e91;
+         border: 1px solid #4e4e91;
+         border-radius: 4px;
+         box-shadow: none;
+         color: #fff;
+         cursor: pointer;
+         display: inline-block;
+         font-size: 16px;
+         letter-spacing: 1px;
+         line-height: 1.2em;
+         padding: .65rem 1rem;
+         text-align: center;
+         transition: background .1s ease-in
+         }
+         .btn-purple,
+         .btn-purple:active,
+         .btn-purple:focus,
+         .btn-purple:hover {
+         outline: none;
+         text-decoration: none
+         }
+         .btn-purple:active,
+         .btn-purple:focus,
+         .btn-purple:hover {
+         background: #4d4584;
+         color: #fff
+         }
+         .btn-purple.disabled,
+         .btn-purple.disabled:active,
+         .btn-purple.disabled:focus,
+         .btn-purple.disabled:hover,
+         .btn-purple[disabled],
+         .btn-purple[disabled]:active,
+         .btn-purple[disabled]:focus,
+         .btn-purple[disabled]:hover {
+         background: #dae0e4;
+         border-color: #dae0e4;
+         color: #fff
+         }
+         .btn-purple.btn-outline {
+         background: transparent;
+         color: #4e4e91
+         }
+         .btn-purple.btn-outline[disabled] {
+         background: #dae0e4;
+         border-color: #dae0e4;
+         color: #fff
+         }
+         .btn-purple.btn-disabled,
+         .btn-purple.btn-disabled:active,
+         .btn-purple.btn-disabled:focus,
+         .btn-purple.btn-disabled:hover {
+         border-color: #dae0e4;
+         color: #9fafb9
+         }
+         .btn-block {
+         width: 100%
+         }
+      </style>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="slider/lightslider.js"></script> 
+      <script>
+         $(document).ready(function() {
+         $("#content-slider").lightSlider({
+                   loop:true,
+                   keyPress:true
+               });
+               $('#image-gallery').lightSlider({
+                   gallery:true,
+                   item:1,
+                   thumbItem:9,
+                   slideMargin: 0,
+                   speed:500,
+                   auto:true,
+                   loop:true,
+                   onSliderLoad: function() {
+                       $('#image-gallery').removeClass('hidden');
+                   }  
+               });
+         });
+      </script>
+   </head>
+   <body>
+      <center>
+         <div class="demo">
+            <div class="item">
+               <div class="clearfix" style="max-width:1200px;">
+                  <ul id="image-gallery" class="gallery list-unstyled hidden">
+                     <li data-thumb="img/products/mac/lipstick/matte/1.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/1.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/2.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/2.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/3.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/3.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/4.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/4.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/5.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/5.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/6.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/6.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/7.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/7.jpg" />
+                     </li>
+                     <li data-thumb="img/products/mac/lipstick/matte/8.jpg"> 
+                        <img src="img/products/mac/lipstick/matte/8.jpg" />
+                     </li>
+                  </ul>
+               </div>
+               <br><button class="btn-green btn-block caps" onclick="window.open('https://www.instamojo.com/blackaqua/mac-lipstick-matte-3c610/')">Buy Now</button>
+               <br><br><button class="btn-purple btn-block caps" onclick="window.open('http://www.meowbhow.in/products/macmattelipstick.pdf')">See Full Catalog</button>
+            </div>
+         </div>
+      </center>
+   </body>
